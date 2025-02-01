@@ -282,7 +282,7 @@ if uploaded_files:
     Memory: {{memory}}
     """
 
-    prompt_stl = """ 
+    prompt_stl = f""" 
     You are an expert to verify PLC programs in STL.
 
     Your primary objective is to ensure the safety, reliability, and proper functionality of software used to an Automated People Mover, to be certified SIL 4 as per CENELEC standards.
@@ -441,7 +441,7 @@ if uploaded_files:
     Memory: {{memory}}
     """
 
-    prompt_scl = """ 
+    prompt_scl = f""" 
     You are an expert to verify PLC programs in SCL.
 
     Your primary objective is to ensure the safety, reliability, and proper functionality of software used to an Automated People Mover, to be certified SIL 4 as per CENELEC standards.
@@ -596,7 +596,7 @@ if uploaded_files:
     Memory: {{memory}}
     """
 
-    prompt_fbd = """ 
+    prompt_fbd = f""" 
     You are an expert to verify PLC programs in FBD.
 
     Your primary objective is to ensure the safety, reliability, and proper functionality of software used to an Automated People Mover, to be certified SIL 4 as per CENELEC standards.
